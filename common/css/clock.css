@@ -1,0 +1,17 @@
+@import "_variables.css";
+
+/*CLOCK*/
+body.browser-source.clock{
+	margin:0;
+	font: bold 6vw 'Roboto Condensed', sans-serif;
+	color: var(--main-color);
+	text-align:right;
+}
+
+#div-clock {
+    padding: .2em .5em;
+    background: rgba(0,0,0,.2);
+    display: inline-block;
+    line-height: 1;
+	border-radius: var(--element-radius);
+}
